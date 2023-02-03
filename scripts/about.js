@@ -17,6 +17,7 @@ function darkClick()
     $(".mode-dark").attr("class", "mode-light col-lg-6");
     $("h2").css("color", "#2B2D42");
     $("h3").css("color", "#2B2D42");
+    $("h4").css("color", "#2B2D42");
     $("p").css("color", "#2B2D42");
     window.localStorage.setItem("theme", "light");
 }
@@ -30,6 +31,7 @@ function lightClick()
     $(".mode-light").attr("class", "mode-dark col-lg-6");
     $("h2").css("color", "#EDF2F4");
     $("h3").css("color", "#EDF2F4");
+    $("h4").css("color", "#EDF2F4");
     $("p").css("color", "#EDF2F4");
     window.localStorage.setItem("theme", "dark");
 }
