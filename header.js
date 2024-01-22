@@ -4,7 +4,7 @@ let titleOfPage =""
 
 function teamName (mode){//the team name part of the header
     return '<td width="35%">'+
-    ((mode)? '<center>' : '')+'<h1 class="nav-title"><b><a class="nav-title" href="index.html">Niskayuna RoboWarriors!</a></b></h1>'+((mode)? '</center>' : '')+
+    ((mode)? '<center>' : '')+'<h1 class="nav-title"><b><a class="nav-title" href="index.html">RoboWarriors!</a></b></h1>'+((mode)? '</center>' : '')+
 '</td>'
 }
 
@@ -20,7 +20,8 @@ function dropMenu(mode){//the page selection drop down menu part of the header
 '<div class="dropdown col-lg-4 nav-item" style="float:right; right: 20px; top: 20px;">'+
     '<button class="dropbtn">Robots from Other Years</button>'+
     '<div class="dropdown-content">'+
-        '<a href="PowerPlay.html">PowerPlay (2022 - 2023) (Current)</a>'+
+        '<a href="Centerstage.html">Centerstage (2023 - 2024) (Current)</a>'+
+        '<a href="PowerPlay.html">PowerPlay (2022 - 2023)</a>'+
         '<a href="Freight_Frenzy.html">Freight Frenzy (2021 - 2022)</a>'+
         '<a href="Skytone.html">Skystone (2019 - 2020)</a>'+
         '<a href="Rover_Ruckus.html">Rover Ruckus (2018 - 2019)</a>'+

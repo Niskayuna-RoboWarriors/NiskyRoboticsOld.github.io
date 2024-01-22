@@ -19,6 +19,7 @@ function darkClick()
     $("h3").css("color", "#2B2D42");
     $("h4").css("color", "#2B2D42");
     $("p").css("color", "#2B2D42");
+    $("font").css("color", "#2B2D42");
     window.localStorage.setItem("theme", "light");
 }
 function lightClick()
@@ -33,6 +34,7 @@ function lightClick()
     $("h3").css("color", "#EDF2F4");
     $("h4").css("color", "#EDF2F4");
     $("p").css("color", "#EDF2F4");
+    $("font").css("color", "#EDF2F4");
     window.localStorage.setItem("theme", "dark");
 }
 document.getElementById("copyright").innerText += ` ${new Date().getFullYear()}`;
