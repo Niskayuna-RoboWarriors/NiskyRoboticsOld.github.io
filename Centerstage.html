@@ -66,8 +66,6 @@
     <p>
         &emsp;The core of our programming is an FSM. A FSM consists of states and state transitions. We encode the desired state of our robot with many variables, each being an enum like "clawState" which will be open or close depending on what we want. Suppose that the claw is closed, to change the state to open, we need only change the state variables to open. Then as part of our main loop, the physical state of components are checked with the desired state. If they do not match, then it will move the physical components to match. In this case, it will see that the physical state of the claw is closed, but the desired state is open, thus it will transition the state to open by moving the servo. This approach makes it easy to manage many different procedures at the same time without the need to use multithreading.
     </p>
-    <h2 class="text-background"><b>Notebook</b></h2>
-    <h4><b></b></h4>
 </section>
 
 
