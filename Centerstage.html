@@ -32,11 +32,42 @@
 
 <section class="text">
     <h2 class="about-us"></h2>
-<p>
-    &emsp;This page is currently being worked on! Check back later :)
-</p>
-<center><img class="img-responsive-powah" src="./imgs/Nisky RoboWarriors Logo (2023-2024).png"></center><br><br>
-
+    <center><img class="img-responsive-powah" src="./imgs/Nisky RoboWarriors Logo (2023-2024).png"></center><br><br>
+    <p>
+        &emsp;This page is currently being worked on! Check back later :)
+    </p>
+    <h4><b>Team structure</b></h4>
+    <center><image class="img-responsive-powah" src="./imgs/Robotics Team Organization Diagram (23-24).jpg"></center> </td>
+    <p>
+        &emsp;Our team is divided into 3 subteams: Mechanical, Notebook, and Programming. These subteams are responsible for making the mechanical components of the robot, documenting and writing our activities in the notebook, and writing code for the robot respectively.
+    </p>
+    <h2 class="text-background"><b>Mechanical</b></h2>
+    <h4><b>Chassis</b></h4>
+    <p>
+        &emsp;We needed a chassis that is easy to assemble, nimble, and reliable. After brainstorming, we ended up with two main designs, a smaller triangular or a simpler, big, sturdy shape. We assessed the designs on several citeria and decided to go with the more simple shape. We felt that the increased complexity from the triangular shape was not worth the benefits, in addition, the design we settled on was similar to the chassis design from last year, which had proven itself to be extremely reliable.
+    </p>
+    <h4><b>Intake</b></h4>
+    <p>
+        &emsp;One of our major challenges this season was the intake system. We started the season with a brush design. This design faced many complications and proved to be very difficult to make properly. After iterating the brush design several times, we decided to pivot to a claw design.
+    </p>
+    <h4><b>Linear Slides</b></h4>
+    <p>
+        &emsp;We chose to use linear slides to elevate the pixels up to the board for placement. The linear slides were assembled to be parallel to the backboard. The game this yaer involved going under obstacles. Linear slides, are quite big, at least the ones we had from previous seasons, so we decided to buy new linear slides that were smaller and more reliable. We settled on GoBuilda Viper Slides. These slides also turned out to be slightly too big. It took a bit of work but we managed to squeeze it on the robot.
+    </p>
+    <h4><b>Paper Airplane</b></h4>
+    <p>
+        &emsp;The paper airplane was an unique element to this season. It took a lot of work designing the perfect airplane, a high-arcing flight with a steep drop off. We analyzed forces and weight distribution to create an airplane with really great reliability. The launcher for the paper airplane took many iterations but eventually proved itself to be one of the most reliable components of this robot.
+    </p>
+    <h2 class="text-background"><b>Programming</b></h2>
+    <p>
+        &emsp;To organize and write code as a team, we used Github and Intellij IDEA as our tools.
+    </p>
+    <h4><b>Finite State Machine</b></h4>
+    <p>
+        &emsp;The core of our programming is an FSM. A FSM consists of states and state transitions. We encode the desired state of our robot with many variables, each being an enum like "clawState" which will be open or close depending on what we want. Suppose that the claw is closed, to change the state to open, we need only change the state variables to open. Then as part of our main loop, the physical state of components are checked with the desired state. If they do not match, then it will move the physical components to match. In this case, it will see that the physical state of the claw is closed, but the desired state is open, thus it will transition the state to open by moving the servo. This approach makes it easy to manage many different procedures at the same time without the need to use multithreading.
+    </p>
+    <h2 class="text-background"><b>Notebook</b></h2>
+    <h4><b></b></h4>
 </section>
 
 
